@@ -1,8 +1,8 @@
-listt1=input("Введите первую строку:")
-listt2=input("Введите вторую строку:")
-sort_list1 = sorted(listt1.lower())
-sort_list2 = sorted(listt2.lower())
+listt1=input("Введите первую строку:") # Ввод строки первой
+listt2=input("Введите вторую строку:") # ввод строки второй 
+sort_list1 = sorted(listt1.lower()) # сортировка строк и приведение к нижнему регистру
+sort_list2 = sorted(listt2.lower()) # сортировка строк и приведение к нижнему регистру
 if sort_list1 == sort_list2:
-    print("Строки анаграммны")
+    print("Строки анаграммны") # вывод 
 else:
-    print("Строки не анаграммны")
+    print("Строки не анаграммны") # вывод
